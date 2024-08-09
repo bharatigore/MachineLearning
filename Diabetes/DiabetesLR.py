@@ -9,7 +9,7 @@ simplefilter(action='ignore',category=FutureWarning)
 
 print("----Diabetes predictor using Logistic Regression-----")
 
-diabetes = pd.read_csv('D:/marvellous/python-DS/dataset/diabetes.csv')
+diabetes = pd.read_csv('diabetes.csv')
 
 print("Columns of Dataset")
 print(diabetes.columns)
